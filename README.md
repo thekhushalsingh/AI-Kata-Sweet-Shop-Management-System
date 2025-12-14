@@ -76,7 +76,7 @@ The objective of this project is to design and build a **production-ready full-s
 ---
 
 ## 🗂 Project Structure
-'''
+```text
 sweet-shop-management-system/
 ├── backend/
 │ ├── src/
@@ -105,10 +105,7 @@ sweet-shop-management-system/
 │ └── package.json
 │
 └── README.md
-
-
----
-
+```
 ## 🧩 Database Model (Prisma)
 
 ### User
@@ -178,7 +175,7 @@ This project follows the **Red → Green → Refactor** approach.
 
 ### 🧪 Testing & Quality Assurance
 The backend is built using **Test Driven Development (TDD)** principles. Below is the coverage report showing high test coverage across controllers, middleware, and routes.
-![TDD Results](tdd-result.png)
+![TDD Results](screenshot/tdd-result.png)
 
 ## 📸 Screenshots
 
@@ -187,25 +184,25 @@ The application features a responsive landing page and a secure authentication s
 
 | Home Page | Login | Register |
 |:---:|:---:|:---:|
-| ![Home Page](home.png) | ![Login Screen](login.png) | ![Registration Screen](register.png) |
+| ![Home Page](screenshot/home.png) | ![Login Screen](screenshot/login.png) | ![Registration Screen](screenshot/register.png) |
 
 ### 🛍️ User Dashboard & Shopping Experience
 Users can browse sweets, filter by specific categories (e.g., Caramel, Chocolate, Gummy), search for items, and manage their shopping cart.
 
 **Dashboard & Filtering**
-![Dashboard](dashboard.png)
-![Dashboard Filter](dashboard-filter.png)
+![Dashboard](screenshot/dashboard.png)
+![Dashboard Filter](screenshot/dashboard-filter.png)
 
 **Cart & Checkout**
 Users can view selected items, modify quantities, and see the calculated total before checking out.
-![Shopping Cart](cart.png)
+![Shopping Cart](screenshot/cart.png)
 
 **Order History**
 A record of previous purchases is maintained for the user.
-![Purchase History](purchase.png)
+![Purchase History](screenshot/purchase.png)
 
 ### ⚙️ Admin Control Panel
 Admins have access to a dedicated panel to manage inventory. Features include adding new sweets, updating stock/pricing, and deleting items (CRUD operations).
-![Admin Panel](admin.png)
+![Admin Panel](screenshot/admin.png)
 
 
