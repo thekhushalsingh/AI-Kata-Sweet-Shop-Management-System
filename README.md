@@ -174,17 +174,22 @@ This project follows the **Red → Green → Refactor** approach.
 - Admin operations
 
 ### 🧪 Testing & Quality Assurance
-The backend is built using **Test Driven Development (TDD)** principles. Below is the coverage report showing high test coverage across controllers, middleware, and routes.
+The backend is built using **Test Driven Development (TDD)** principles. 
+Below is the coverage report showing high test coverage across controllers, middleware, and routes.
+
 ![TDD Results](screenshot/tdd-result.png)
 
 ## 📸 Screenshots
 
 ### 🏠 Landing & Authentication
 The application features a responsive landing page and a secure authentication system allowing users to register as either a standard User or an Admin.
+**Home page.
+![Home Page](screenshot/home.png) 
 
-| Home Page | Login | Register |
-|:---:|:---:|:---:|
-| ![Home Page](screenshot/home.png) | ![Login Screen](screenshot/login.png) | ![Registration Screen](screenshot/register.png) |
+
+| Login | Register |
+|:---:|:---:|
+| ![Login Screen](screenshot/login.png) | ![Registration Screen](screenshot/register.png) |
 
 ### 🛍️ User Dashboard & Shopping Experience
 Users can browse sweets, filter by specific categories (e.g., Caramel, Chocolate, Gummy), search for items, and manage their shopping cart.
