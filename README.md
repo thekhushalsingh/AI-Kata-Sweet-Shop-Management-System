@@ -76,9 +76,8 @@ The objective of this project is to design and build a **production-ready full-s
 ---
 
 ## 🗂 Project Structure
-
-## 
-**sweet-shop-management-system/
+'''
+sweet-shop-management-system/
 ├── backend/
 │ ├── src/
 │ │ ├── app.ts
@@ -106,7 +105,6 @@ The objective of this project is to design and build a **production-ready full-s
 │ └── package.json
 │
 └── README.md
-**
 
 
 ---
@@ -178,6 +176,36 @@ This project follows the **Red → Green → Refactor** approach.
 - Purchase & checkout flow
 - Admin operations
 
-### Run Tests
-```bash
-npm test
+### 🧪 Testing & Quality Assurance
+The backend is built using **Test Driven Development (TDD)** principles. Below is the coverage report showing high test coverage across controllers, middleware, and routes.
+![TDD Results](tdd-result.png)
+
+## 📸 Screenshots
+
+### 🏠 Landing & Authentication
+The application features a responsive landing page and a secure authentication system allowing users to register as either a standard User or an Admin.
+
+| Home Page | Login | Register |
+|:---:|:---:|:---:|
+| ![Home Page](home.png) | ![Login Screen](login.png) | ![Registration Screen](register.png) |
+
+### 🛍️ User Dashboard & Shopping Experience
+Users can browse sweets, filter by specific categories (e.g., Caramel, Chocolate, Gummy), search for items, and manage their shopping cart.
+
+**Dashboard & Filtering**
+![Dashboard](dashboard.png)
+![Dashboard Filter](dashboard-filter.png)
+
+**Cart & Checkout**
+Users can view selected items, modify quantities, and see the calculated total before checking out.
+![Shopping Cart](cart.png)
+
+**Order History**
+A record of previous purchases is maintained for the user.
+![Purchase History](purchase.png)
+
+### ⚙️ Admin Control Panel
+Admins have access to a dedicated panel to manage inventory. Features include adding new sweets, updating stock/pricing, and deleting items (CRUD operations).
+![Admin Panel](admin.png)
+
+
