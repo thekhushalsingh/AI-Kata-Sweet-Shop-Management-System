@@ -212,8 +212,5 @@ Admins have access to a dedicated panel to manage inventory. Features include ad
 
 
 ## 
-** 
-Developed by Khushal singh
-
-**
+** Developed by Khushal singh **
 
