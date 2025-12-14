@@ -106,7 +106,7 @@ sweet-shop-management-system/
 │
 └── README.md
 ```
-## 🧩 Database Model (Prisma)
+## 🧩 Database Model (Prisma, PostgreSQL )
 
 ### User
 - id
@@ -183,7 +183,7 @@ Below is the coverage report showing high test coverage across controllers, midd
 
 ### 🏠 Landing & Authentication
 The application features a responsive landing page and a secure authentication system allowing users to register as either a standard User or an Admin.
-**Home page.
+###Home page.
 ![Home Page](screenshot/home.png) 
 
 
