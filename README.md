@@ -135,18 +135,18 @@ Relations are enforced to maintain **data integrity**, and **transactions** are 
 
 ---
 
-##🤖 My AI Usage
+## 🤖 My AI Usage
 **AI Tools Used**
--ChatGPT (OpenAI)
+- ChatGPT (OpenAI)
 **How I Used AI**
--Designing API structure and database schema
--Debugging Prisma transaction and foreign key issues
--Generating initial boilerplate for controllers and tests
--Improving UI/UX ideas and frontend structure
--Guiding Test-Driven Development workflow
+- Designing API structure and database schema
+- Debugging Prisma transaction and foreign key issues
+- Generating initial boilerplate for controllers and tests
+- Improving UI/UX ideas and frontend structure
+- Guiding Test-Driven Development workflow
 
 **Reflection**
-AI helped speed up development and resolve complex issues efficiently. All business logic, validations, and architectural decisions were carefully reviewed and finalized manually. AI was used as a supporting development tool, not as a replacement for engineering judgment.
+- AI helped speed up development and resolve complex issues efficiently. All business logic, validations, and architectural decisions were carefully reviewed and finalized manually. AI was used as a supporting development tool, not as a replacement for engineering judgment.
 
 ## 🧪 Test-Driven Development (TDD)
 
